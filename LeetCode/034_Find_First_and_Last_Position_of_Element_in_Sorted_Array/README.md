@@ -1,0 +1,30 @@
+# 34. Find First and Last Position of Element in Sorted Array
+
+## Problem Information
+
+- **Platform:** LeetCode
+- **Problem Number:** 34
+- **Difficulty:** Medium
+- **Language:** C++
+- **Topics:** Array, Binary Search
+
+## Problem Link
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+## Approach
+
+Use Binary Search twice:
+- Find the first occurrence (leftmost index) of the target.
+- Find the last occurrence (rightmost index) of the target.
+
+This achieves the required **O(log n)** time complexity.
+
+## Complexity
+
+- **Time Complexity:** O(log n)
+- **Space Complexity:** O(1)
+
+## Files
+
+- `Solution.cpp` — C++ solution
